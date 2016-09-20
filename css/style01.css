@@ -1,0 +1,118 @@
+/*font-family: 'Lobster', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Gloria Hallelujah', cursive;
+*/
+
+#contenidos{
+	width: 1000px;
+	height: auto;
+	margin: auto;
+	position: relative;
+	
+}
+
+body{
+background: #808080;
+background-repeat: no-repeat;
+background-size: cover; 
+}
+
+h1{
+font-family: 'Franklin Gothic', cursive;
+color: white;
+margin-left: 10px;
+font-size: 40px;
+text-align: center; 
+}
+
+h2{
+font-family: 'Franklin Gothic', cursive;
+color: white;
+margin-left: 10px;
+font-size: 23px;
+text-align: left; 
+}
+
+h3{
+font-family: 'Gloria Hallelujah', cursive;
+color: #FF5900;
+margin-left: auto;
+font-size: 15px;
+text-align: right; 
+}
+
+header{
+	width: 1000px;
+	height: 200px;
+	background: rgba(255, 255, 255, 0,5);
+}
+
+nav{
+width: 1000px;
+height: 50px;
+background: #006680;
+border-radius: 10px;
+margin-top: 300px;
+}
+
+ul{
+margin: auto;
+padding-top: 4px;
+}
+
+li{
+	float: left;
+	list-style-type: none;
+	padding: 10px;
+	background: #F2B80D;
+	margin: 3px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px white inset;
+}
+
+/*CLASSES*/
+
+.ancho_menu_home{width: 900px;}
+.ancho_menu_paginas{width: 1000px;}
+
+.menu:link{color: white; text-decoration: none;}
+.menu:visited{color: white; text-decoration: none;}
+.menu:hover{color: white; text-decoration: none; text-shadow: 0 0 5px white;}
+.menu:active{color: white; text-decoration: none;}
+
+.banner{
+	width:1000px;
+	height: 350px;
+	border: 4px solid black;
+	margin: auto;
+	background-size: 100% 100%;
+
+	animation: banner 10s infinite;
+	animation-direction: alternate;
+
+ }
+@keyframes banner {
+     0%, 30%{
+     	background-image: url(../img/b01.jpg); 
+     }
+
+     35%, 65%{
+     	background-image: url(../img/b02.png); 
+    }
+
+     70%, 100%{
+     	background-image: url(../img/b03.jpg); 
+     }
+   }
+
+
+
+
+
+
+
+
+
+
+
+
